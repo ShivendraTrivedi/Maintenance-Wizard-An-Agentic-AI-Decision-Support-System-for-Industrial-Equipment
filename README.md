@@ -127,14 +127,3 @@ answers and alerts.
     ├── feedback/ logbook/      # feedback loop + digital logbook
     └── manifest.json
 ```
-
----
-
-## 7. Assumptions & limitations
-
-- Data is realistic **synthetic** (no live plant feed); IoT is **simulated** but the
-  ingestion interface is ready for real sensors/MQTT.
-- RUL and risk models demonstrate the **method** on sample data, not plant-certified accuracy.
-- RAG grounding + citations reduce hallucination but do not eliminate it.
-- The system is **decision support** — a human engineer makes the final call.
-```
