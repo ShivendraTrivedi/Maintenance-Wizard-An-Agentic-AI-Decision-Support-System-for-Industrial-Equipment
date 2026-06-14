@@ -1,0 +1,108 @@
+asset_id,equipment_type,date,delay_minutes,reason,severity
+BFS-01,Blast Furnace Stove,2026-04-19,20,Process interruption pending inspection,Low
+BFS-01,Blast Furnace Stove,2026-04-19,180,Unplanned stoppage — hot blast valve leakage,Critical
+BFS-01,Blast Furnace Stove,2026-05-02,180,Production held due to checker brick degradation,Critical
+BFS-01,Blast Furnace Stove,2026-05-04,180,Process interruption pending inspection,Critical
+BFS-02,Blast Furnace Stove,2026-04-27,50,Slow-down to protect equipment after alarm,Medium
+BFS-02,Blast Furnace Stove,2026-05-01,20,Slow-down to protect equipment after alarm,Low
+BFS-02,Blast Furnace Stove,2026-05-09,120,Process interruption pending inspection,High
+BFS-02,Blast Furnace Stove,2026-05-10,35,Slow-down to protect equipment after alarm,Medium
+BFS-02,Blast Furnace Stove,2026-05-13,20,Unplanned stoppage — hot blast valve leakage,Low
+BFS-02,Blast Furnace Stove,2026-05-16,180,Production held due to shell hot-spot,Critical
+BFS-03,Blast Furnace Stove,2026-04-18,75,Slow-down to protect equipment after alarm,High
+BFS-03,Blast Furnace Stove,2026-04-21,50,Production held due to hot blast valve leakage,Medium
+BFS-03,Blast Furnace Stove,2026-04-23,20,Production held due to checker brick degradation,Low
+BFS-03,Blast Furnace Stove,2026-05-08,35,Unplanned stoppage — shell hot-spot,Medium
+BFS-03,Blast Furnace Stove,2026-05-13,120,Production held due to checker brick degradation,High
+BFS-03,Blast Furnace Stove,2026-05-14,180,Process interruption pending inspection,Critical
+BFS-03,Blast Furnace Stove,2026-05-14,50,Unplanned stoppage — checker brick degradation,Medium
+BFS-04,Blast Furnace Stove,2026-04-27,20,Unplanned stoppage — hot blast valve leakage,Low
+BFS-04,Blast Furnace Stove,2026-04-30,240,Slow-down to protect equipment after alarm,Critical
+BFS-04,Blast Furnace Stove,2026-05-02,20,Production held due to hot blast valve leakage,Low
+BFS-04,Blast Furnace Stove,2026-05-09,180,Production held due to checker brick degradation,Critical
+BFS-04,Blast Furnace Stove,2026-05-10,75,Slow-down to protect equipment after alarm,High
+HSM-M-02,Hot Strip Mill Main Drive Motor,2026-04-25,240,Slow-down to protect equipment after alarm,Critical
+HSM-M-02,Hot Strip Mill Main Drive Motor,2026-04-27,20,Process interruption pending inspection,Low
+HSM-M-02,Hot Strip Mill Main Drive Motor,2026-05-10,35,Production held due to coupling misalignment,Medium
+HSM-M-02,Hot Strip Mill Main Drive Motor,2026-05-11,75,Unplanned stoppage — winding insulation breakdown,High
+HSM-M-02,Hot Strip Mill Main Drive Motor,2026-05-13,50,Production held due to bearing wear / imbalance,Medium
+HSM-M-02,Hot Strip Mill Main Drive Motor,2026-05-13,20,Unplanned stoppage — bearing wear / imbalance,Low
+HSM-M-05,Hot Strip Mill Main Drive Motor,2026-04-29,20,Process interruption pending inspection,Low
+HSM-M-05,Hot Strip Mill Main Drive Motor,2026-05-13,15,Production held due to coupling misalignment,Low
+HSM-M-06,Hot Strip Mill Main Drive Motor,2026-04-22,120,Unplanned stoppage — winding insulation breakdown,High
+HSM-M-06,Hot Strip Mill Main Drive Motor,2026-04-24,180,Production held due to bearing wear / imbalance,Critical
+HSM-M-06,Hot Strip Mill Main Drive Motor,2026-05-02,240,Process interruption pending inspection,Critical
+HSM-M-06,Hot Strip Mill Main Drive Motor,2026-05-12,20,Unplanned stoppage — bearing wear / imbalance,Low
+CCM-OSC-01,Continuous Casting Mould Oscillator,2026-04-27,15,Production held due to hydraulic pressure loss,Low
+CCM-OSC-02,Continuous Casting Mould Oscillator,2026-04-21,120,Production held due to servo valve sticking,High
+CCM-OSC-02,Continuous Casting Mould Oscillator,2026-04-24,120,Unplanned stoppage — hydraulic pressure loss,High
+CCM-OSC-02,Continuous Casting Mould Oscillator,2026-04-26,50,Process interruption pending inspection,Medium
+CCM-OSC-02,Continuous Casting Mould Oscillator,2026-04-28,75,Unplanned stoppage — servo valve sticking,High
+CCM-OSC-02,Continuous Casting Mould Oscillator,2026-05-05,75,Unplanned stoppage — servo valve sticking,High
+CCM-OSC-02,Continuous Casting Mould Oscillator,2026-05-11,240,Unplanned stoppage — servo valve sticking,Critical
+CCM-OSC-02,Continuous Casting Mould Oscillator,2026-05-13,180,Production held due to hydraulic pressure loss,Critical
+CCM-OSC-03,Continuous Casting Mould Oscillator,2026-04-29,10,Unplanned stoppage — mould level instability,Low
+CCM-OSC-04,Continuous Casting Mould Oscillator,2026-05-10,20,Slow-down to protect equipment after alarm,Low
+CCM-OSC-05,Continuous Casting Mould Oscillator,2026-04-20,5,Unplanned stoppage — hydraulic pressure loss,Low
+CCM-OSC-05,Continuous Casting Mould Oscillator,2026-04-30,5,Process interruption pending inspection,Low
+COR-01,Coke Oven Pushing Ram,2026-04-19,20,Unplanned stoppage — hard pushing / sticky oven,Low
+COR-01,Coke Oven Pushing Ram,2026-05-12,10,Production held due to drive gearbox wear,Low
+COR-02,Coke Oven Pushing Ram,2026-04-21,15,Process interruption pending inspection,Low
+COR-03,Coke Oven Pushing Ram,2026-04-25,240,Slow-down to protect equipment after alarm,Critical
+COR-03,Coke Oven Pushing Ram,2026-04-27,180,Slow-down to protect equipment after alarm,Critical
+COR-03,Coke Oven Pushing Ram,2026-04-30,120,Process interruption pending inspection,High
+COR-03,Coke Oven Pushing Ram,2026-05-02,75,Unplanned stoppage — hard pushing / sticky oven,High
+COR-03,Coke Oven Pushing Ram,2026-05-07,20,Unplanned stoppage — drive gearbox wear,Low
+COR-03,Coke Oven Pushing Ram,2026-05-09,180,Process interruption pending inspection,Critical
+COR-03,Coke Oven Pushing Ram,2026-05-15,240,Slow-down to protect equipment after alarm,Critical
+SP-IDF-01,Sinter Plant ID Fan,2026-04-17,240,Production held due to bearing failure,Critical
+SP-IDF-01,Sinter Plant ID Fan,2026-04-18,50,Process interruption pending inspection,Medium
+SP-IDF-01,Sinter Plant ID Fan,2026-05-02,180,Unplanned stoppage — bearing failure,Critical
+SP-IDF-01,Sinter Plant ID Fan,2026-05-03,35,Process interruption pending inspection,Medium
+SP-IDF-01,Sinter Plant ID Fan,2026-05-16,240,Production held due to impeller erosion,Critical
+SP-IDF-02,Sinter Plant ID Fan,2026-04-17,30,Slow-down to protect equipment after alarm,Medium
+SP-IDF-02,Sinter Plant ID Fan,2026-05-07,10,Unplanned stoppage — impeller dust build-up / imbalance,Low
+SP-IDF-03,Sinter Plant ID Fan,2026-04-19,5,Slow-down to protect equipment after alarm,Low
+SP-IDF-03,Sinter Plant ID Fan,2026-04-26,20,Unplanned stoppage — impeller erosion,Low
+SP-IDF-04,Sinter Plant ID Fan,2026-04-23,20,Production held due to impeller erosion,Low
+BOF-LH-01,BOF Lance Hoist,2026-04-18,50,Process interruption pending inspection,Medium
+BOF-LH-01,BOF Lance Hoist,2026-04-23,180,Unplanned stoppage — brake fade,Critical
+BOF-LH-01,BOF Lance Hoist,2026-04-28,75,Unplanned stoppage — cooling water flow drop,High
+BOF-LH-01,BOF Lance Hoist,2026-05-05,50,Process interruption pending inspection,Medium
+BOF-LH-03,BOF Lance Hoist,2026-04-16,20,Slow-down to protect equipment after alarm,Low
+RHF-WBD-02,Reheating Furnace Walking Beam Drive,2026-04-18,180,Unplanned stoppage — hydraulic cylinder drift,Critical
+RHF-WBD-02,Reheating Furnace Walking Beam Drive,2026-04-23,240,Production held due to hydraulic cylinder drift,Critical
+RHF-WBD-02,Reheating Furnace Walking Beam Drive,2026-04-25,35,Slow-down to protect equipment after alarm,Medium
+RHF-WBD-02,Reheating Furnace Walking Beam Drive,2026-05-12,50,Process interruption pending inspection,Medium
+RHF-WBD-02,Reheating Furnace Walking Beam Drive,2026-05-14,240,Process interruption pending inspection,Critical
+RHF-WBD-03,Reheating Furnace Walking Beam Drive,2026-04-24,30,Process interruption pending inspection,Medium
+RHF-WBD-04,Reheating Furnace Walking Beam Drive,2026-05-06,15,Process interruption pending inspection,Low
+RHF-WBD-04,Reheating Furnace Walking Beam Drive,2026-05-09,20,Production held due to skid button wear,Low
+CWP-01,Cooling Water Pump,2026-05-14,30,Production held due to impeller wear,Medium
+CWP-02,Cooling Water Pump,2026-04-27,35,Process interruption pending inspection,Medium
+CWP-02,Cooling Water Pump,2026-05-06,20,Process interruption pending inspection,Low
+CWP-02,Cooling Water Pump,2026-05-08,240,Slow-down to protect equipment after alarm,Critical
+CWP-02,Cooling Water Pump,2026-05-12,75,Slow-down to protect equipment after alarm,High
+CWP-02,Cooling Water Pump,2026-05-15,240,Process interruption pending inspection,Critical
+CWP-02,Cooling Water Pump,2026-05-16,35,Unplanned stoppage — cavitation,Medium
+CWP-03,Cooling Water Pump,2026-04-22,240,Production held due to mechanical seal leak,Critical
+CWP-03,Cooling Water Pump,2026-04-24,20,Production held due to cavitation,Low
+CWP-03,Cooling Water Pump,2026-05-02,50,Unplanned stoppage — mechanical seal leak,Medium
+CWP-03,Cooling Water Pump,2026-05-04,50,Production held due to impeller wear,Medium
+CWP-03,Cooling Water Pump,2026-05-05,120,Process interruption pending inspection,High
+CWP-04,Cooling Water Pump,2026-05-13,10,Unplanned stoppage — impeller wear,Low
+CWP-04,Cooling Water Pump,2026-05-16,15,Unplanned stoppage — mechanical seal leak,Low
+CWP-05,Cooling Water Pump,2026-04-19,75,Unplanned stoppage — mechanical seal leak,High
+CWP-05,Cooling Water Pump,2026-04-22,50,Unplanned stoppage — cavitation,Medium
+CWP-05,Cooling Water Pump,2026-04-24,240,Unplanned stoppage — impeller wear,Critical
+CWP-05,Cooling Water Pump,2026-04-27,240,Production held due to mechanical seal leak,Critical
+CWP-05,Cooling Water Pump,2026-04-27,20,Process interruption pending inspection,Low
+CWP-05,Cooling Water Pump,2026-05-02,35,Process interruption pending inspection,Medium
+CWP-05,Cooling Water Pump,2026-05-16,75,Slow-down to protect equipment after alarm,High
+CWP-07,Cooling Water Pump,2026-05-08,5,Unplanned stoppage — cavitation,Low
+CWP-08,Cooling Water Pump,2026-04-16,50,Production held due to impeller wear,Medium
+CWP-08,Cooling Water Pump,2026-04-17,35,Process interruption pending inspection,Medium
+CWP-08,Cooling Water Pump,2026-04-18,20,Production held due to cavitation,Low
+CWP-08,Cooling Water Pump,2026-04-23,180,Process interruption pending inspection,Critical
+CWP-08,Cooling Water Pump,2026-04-28,50,Process interruption pending inspection,Medium
+CWP-08,Cooling Water Pump,2026-05-04,75,Slow-down to protect equipment after alarm,High

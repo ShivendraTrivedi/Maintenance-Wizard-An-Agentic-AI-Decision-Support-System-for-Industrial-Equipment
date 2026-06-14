@@ -1,0 +1,33 @@
+part_name,equipment_type,stock_qty,procurement_lead_time_days,unit_cost_inr,criticality,preferred_vendor
+Checker bricks (silica),Blast Furnace Stove,4,5,120000,Critical,Local Vendor B
+Hot blast valve seat,Blast Furnace Stove,0,5,4200,Critical,Local Vendor A
+Cooling stave,Blast Furnace Stove,0,21,8500,Critical,Local Vendor B
+Burner nozzle,Blast Furnace Stove,0,7,32000,Critical,Local Vendor B
+DE bearing (SKF 6324),Hot Strip Mill Main Drive Motor,3,30,120000,Critical,Imported
+NDE bearing,Hot Strip Mill Main Drive Motor,0,14,75000,Critical,OEM
+Stator winding kit,Hot Strip Mill Main Drive Motor,0,3,120000,Critical,OEM
+Flexible coupling element,Hot Strip Mill Main Drive Motor,0,5,1500,Critical,Local Vendor A
+Servo valve,Continuous Casting Mould Oscillator,0,3,1500,Critical,Imported
+Hydraulic seal kit,Continuous Casting Mould Oscillator,1,14,4200,Critical,OEM
+Accumulator bladder,Continuous Casting Mould Oscillator,4,7,75000,Critical,OEM
+Mould level sensor,Continuous Casting Mould Oscillator,1,60,120000,Critical,Imported
+Ram shoe,Coke Oven Pushing Ram,4,5,75000,High,Imported
+Drive gearbox,Coke Oven Pushing Ram,0,21,32000,High,Local Vendor A
+Rail clamp,Coke Oven Pushing Ram,0,10,32000,High,Local Vendor B
+Ram chain link,Coke Oven Pushing Ram,6,21,32000,High,Local Vendor A
+Fan impeller,Sinter Plant ID Fan,3,10,75000,High,Local Vendor A
+Plummer block bearing,Sinter Plant ID Fan,1,60,15000,High,Local Vendor B
+Wear liner,Sinter Plant ID Fan,6,5,120000,High,Imported
+Coupling,Sinter Plant ID Fan,1,21,120000,High,Local Vendor B
+Wire rope,BOF Lance Hoist,2,60,75000,Critical,OEM
+Brake pad set,BOF Lance Hoist,2,30,1500,Critical,OEM
+Cooling water pump,BOF Lance Hoist,3,60,15000,Critical,Imported
+Sheave wheel,BOF Lance Hoist,4,60,32000,Critical,Local Vendor A
+Cylinder seal kit,Reheating Furnace Walking Beam Drive,1,21,1500,High,Local Vendor B
+Skid button,Reheating Furnace Walking Beam Drive,0,30,15000,High,OEM
+Hydraulic cooler,Reheating Furnace Walking Beam Drive,6,3,15000,High,Imported
+Proportional valve,Reheating Furnace Walking Beam Drive,0,14,15000,High,Imported
+Mechanical seal,Cooling Water Pump,4,21,75000,Medium,Imported
+Pump impeller,Cooling Water Pump,3,45,15000,Medium,Imported
+Bearing set,Cooling Water Pump,3,2,32000,Medium,Local Vendor A
+Wear ring,Cooling Water Pump,0,45,120000,Medium,OEM

@@ -1,0 +1,534 @@
+{
+  "assets": [
+    {
+      "asset_id": "BFS-01",
+      "type": "Blast Furnace Stove",
+      "area": "Iron Making",
+      "criticality": "Critical",
+      "install_year": 2019,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/BFS-01.csv",
+        "degraded_sensor": "waste_gas_temp",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 560
+    },
+    {
+      "asset_id": "BFS-02",
+      "type": "Blast Furnace Stove",
+      "area": "Iron Making",
+      "criticality": "Critical",
+      "install_year": 2009,
+      "manufacturer": "TMEIC",
+      "sensor": {
+        "path": "data/sensors/BFS-02.csv",
+        "degraded_sensor": "combustion_air_flow",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 425
+    },
+    {
+      "asset_id": "BFS-03",
+      "type": "Blast Furnace Stove",
+      "area": "Iron Making",
+      "criticality": "Critical",
+      "install_year": 2013,
+      "manufacturer": "ABB",
+      "sensor": {
+        "path": "data/sensors/BFS-03.csv",
+        "degraded_sensor": "shell_temperature",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 530
+    },
+    {
+      "asset_id": "BFS-04",
+      "type": "Blast Furnace Stove",
+      "area": "Iron Making",
+      "criticality": "Critical",
+      "install_year": 2011,
+      "manufacturer": "ABB",
+      "sensor": {
+        "path": "data/sensors/BFS-04.csv",
+        "degraded_sensor": "shell_temperature",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 535
+    },
+    {
+      "asset_id": "HSM-M-01",
+      "type": "Hot Strip Mill Main Drive Motor",
+      "area": "Hot Rolling",
+      "criticality": "Critical",
+      "install_year": 2019,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/HSM-M-01.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 0
+    },
+    {
+      "asset_id": "HSM-M-02",
+      "type": "Hot Strip Mill Main Drive Motor",
+      "area": "Hot Rolling",
+      "criticality": "Critical",
+      "install_year": 2019,
+      "manufacturer": "TMEIC",
+      "sensor": {
+        "path": "data/sensors/HSM-M-02.csv",
+        "degraded_sensor": "vibration_nde",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 440
+    },
+    {
+      "asset_id": "HSM-M-03",
+      "type": "Hot Strip Mill Main Drive Motor",
+      "area": "Hot Rolling",
+      "criticality": "Critical",
+      "install_year": 2017,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/HSM-M-03.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 0
+    },
+    {
+      "asset_id": "HSM-M-04",
+      "type": "Hot Strip Mill Main Drive Motor",
+      "area": "Hot Rolling",
+      "criticality": "Critical",
+      "install_year": 2017,
+      "manufacturer": "SMS Group",
+      "sensor": {
+        "path": "data/sensors/HSM-M-04.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 0
+    },
+    {
+      "asset_id": "HSM-M-05",
+      "type": "Hot Strip Mill Main Drive Motor",
+      "area": "Hot Rolling",
+      "criticality": "Critical",
+      "install_year": 2009,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/HSM-M-05.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 35
+    },
+    {
+      "asset_id": "HSM-M-06",
+      "type": "Hot Strip Mill Main Drive Motor",
+      "area": "Hot Rolling",
+      "criticality": "Critical",
+      "install_year": 2009,
+      "manufacturer": "ABB",
+      "sensor": {
+        "path": "data/sensors/HSM-M-06.csv",
+        "degraded_sensor": "vibration_nde",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 560
+    },
+    {
+      "asset_id": "CCM-OSC-01",
+      "type": "Continuous Casting Mould Oscillator",
+      "area": "Continuous Casting",
+      "criticality": "Critical",
+      "install_year": 2011,
+      "manufacturer": "Primetals",
+      "sensor": {
+        "path": "data/sensors/CCM-OSC-01.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 15
+    },
+    {
+      "asset_id": "CCM-OSC-02",
+      "type": "Continuous Casting Mould Oscillator",
+      "area": "Continuous Casting",
+      "criticality": "Critical",
+      "install_year": 2017,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/CCM-OSC-02.csv",
+        "degraded_sensor": "oscillation_frequency",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 860
+    },
+    {
+      "asset_id": "CCM-OSC-03",
+      "type": "Continuous Casting Mould Oscillator",
+      "area": "Continuous Casting",
+      "criticality": "Critical",
+      "install_year": 2017,
+      "manufacturer": "ABB",
+      "sensor": {
+        "path": "data/sensors/CCM-OSC-03.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 10
+    },
+    {
+      "asset_id": "CCM-OSC-04",
+      "type": "Continuous Casting Mould Oscillator",
+      "area": "Continuous Casting",
+      "criticality": "Critical",
+      "install_year": 2019,
+      "manufacturer": "TMEIC",
+      "sensor": {
+        "path": "data/sensors/CCM-OSC-04.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 20
+    },
+    {
+      "asset_id": "CCM-OSC-05",
+      "type": "Continuous Casting Mould Oscillator",
+      "area": "Continuous Casting",
+      "criticality": "Critical",
+      "install_year": 2019,
+      "manufacturer": "Primetals",
+      "sensor": {
+        "path": "data/sensors/CCM-OSC-05.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 10
+    },
+    {
+      "asset_id": "COR-01",
+      "type": "Coke Oven Pushing Ram",
+      "area": "Coke Making",
+      "criticality": "High",
+      "install_year": 2015,
+      "manufacturer": "ABB",
+      "sensor": {
+        "path": "data/sensors/COR-01.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 30
+    },
+    {
+      "asset_id": "COR-02",
+      "type": "Coke Oven Pushing Ram",
+      "area": "Coke Making",
+      "criticality": "High",
+      "install_year": 2015,
+      "manufacturer": "Primetals",
+      "sensor": {
+        "path": "data/sensors/COR-02.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 15
+    },
+    {
+      "asset_id": "COR-03",
+      "type": "Coke Oven Pushing Ram",
+      "area": "Coke Making",
+      "criticality": "High",
+      "install_year": 2013,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/COR-03.csv",
+        "degraded_sensor": "drive_motor_current",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 1055
+    },
+    {
+      "asset_id": "SP-IDF-01",
+      "type": "Sinter Plant ID Fan",
+      "area": "Sinter Making",
+      "criticality": "High",
+      "install_year": 2011,
+      "manufacturer": "TMEIC",
+      "sensor": {
+        "path": "data/sensors/SP-IDF-01.csv",
+        "degraded_sensor": "motor_current",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 745
+    },
+    {
+      "asset_id": "SP-IDF-02",
+      "type": "Sinter Plant ID Fan",
+      "area": "Sinter Making",
+      "criticality": "High",
+      "install_year": 2015,
+      "manufacturer": "Danieli",
+      "sensor": {
+        "path": "data/sensors/SP-IDF-02.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 40
+    },
+    {
+      "asset_id": "SP-IDF-03",
+      "type": "Sinter Plant ID Fan",
+      "area": "Sinter Making",
+      "criticality": "High",
+      "install_year": 2013,
+      "manufacturer": "ABB",
+      "sensor": {
+        "path": "data/sensors/SP-IDF-03.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 25
+    },
+    {
+      "asset_id": "SP-IDF-04",
+      "type": "Sinter Plant ID Fan",
+      "area": "Sinter Making",
+      "criticality": "High",
+      "install_year": 2011,
+      "manufacturer": "Danieli",
+      "sensor": {
+        "path": "data/sensors/SP-IDF-04.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 20
+    },
+    {
+      "asset_id": "BOF-LH-01",
+      "type": "BOF Lance Hoist",
+      "area": "Steel Making",
+      "criticality": "Critical",
+      "install_year": 2009,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/BOF-LH-01.csv",
+        "degraded_sensor": "rope_tension",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 355
+    },
+    {
+      "asset_id": "BOF-LH-02",
+      "type": "BOF Lance Hoist",
+      "area": "Steel Making",
+      "criticality": "Critical",
+      "install_year": 2015,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/BOF-LH-02.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 0
+    },
+    {
+      "asset_id": "BOF-LH-03",
+      "type": "BOF Lance Hoist",
+      "area": "Steel Making",
+      "criticality": "Critical",
+      "install_year": 2013,
+      "manufacturer": "Danieli",
+      "sensor": {
+        "path": "data/sensors/BOF-LH-03.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 20
+    },
+    {
+      "asset_id": "RHF-WBD-01",
+      "type": "Reheating Furnace Walking Beam Drive",
+      "area": "Hot Rolling",
+      "criticality": "High",
+      "install_year": 2017,
+      "manufacturer": "Danieli",
+      "sensor": {
+        "path": "data/sensors/RHF-WBD-01.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 0
+    },
+    {
+      "asset_id": "RHF-WBD-02",
+      "type": "Reheating Furnace Walking Beam Drive",
+      "area": "Hot Rolling",
+      "criticality": "High",
+      "install_year": 2009,
+      "manufacturer": "TMEIC",
+      "sensor": {
+        "path": "data/sensors/RHF-WBD-02.csv",
+        "degraded_sensor": "hydraulic_pressure",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 745
+    },
+    {
+      "asset_id": "RHF-WBD-03",
+      "type": "Reheating Furnace Walking Beam Drive",
+      "area": "Hot Rolling",
+      "criticality": "High",
+      "install_year": 2015,
+      "manufacturer": "Primetals",
+      "sensor": {
+        "path": "data/sensors/RHF-WBD-03.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 30
+    },
+    {
+      "asset_id": "RHF-WBD-04",
+      "type": "Reheating Furnace Walking Beam Drive",
+      "area": "Hot Rolling",
+      "criticality": "High",
+      "install_year": 2009,
+      "manufacturer": "SMS Group",
+      "sensor": {
+        "path": "data/sensors/RHF-WBD-04.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 35
+    },
+    {
+      "asset_id": "CWP-01",
+      "type": "Cooling Water Pump",
+      "area": "Utilities",
+      "criticality": "Medium",
+      "install_year": 2009,
+      "manufacturer": "Primetals",
+      "sensor": {
+        "path": "data/sensors/CWP-01.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 30
+    },
+    {
+      "asset_id": "CWP-02",
+      "type": "Cooling Water Pump",
+      "area": "Utilities",
+      "criticality": "Medium",
+      "install_year": 2013,
+      "manufacturer": "TMEIC",
+      "sensor": {
+        "path": "data/sensors/CWP-02.csv",
+        "degraded_sensor": "bearing_temperature",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 645
+    },
+    {
+      "asset_id": "CWP-03",
+      "type": "Cooling Water Pump",
+      "area": "Utilities",
+      "criticality": "Medium",
+      "install_year": 2017,
+      "manufacturer": "Danieli",
+      "sensor": {
+        "path": "data/sensors/CWP-03.csv",
+        "degraded_sensor": "vibration",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 480
+    },
+    {
+      "asset_id": "CWP-04",
+      "type": "Cooling Water Pump",
+      "area": "Utilities",
+      "criticality": "Medium",
+      "install_year": 2017,
+      "manufacturer": "ABB",
+      "sensor": {
+        "path": "data/sensors/CWP-04.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 25
+    },
+    {
+      "asset_id": "CWP-05",
+      "type": "Cooling Water Pump",
+      "area": "Utilities",
+      "criticality": "Medium",
+      "install_year": 2019,
+      "manufacturer": "Siemens",
+      "sensor": {
+        "path": "data/sensors/CWP-05.csv",
+        "degraded_sensor": "flow_rate",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 735
+    },
+    {
+      "asset_id": "CWP-06",
+      "type": "Cooling Water Pump",
+      "area": "Utilities",
+      "criticality": "Medium",
+      "install_year": 2009,
+      "manufacturer": "TMEIC",
+      "sensor": {
+        "path": "data/sensors/CWP-06.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 0
+    },
+    {
+      "asset_id": "CWP-07",
+      "type": "Cooling Water Pump",
+      "area": "Utilities",
+      "criticality": "Medium",
+      "install_year": 2011,
+      "manufacturer": "Danieli",
+      "sensor": {
+        "path": "data/sensors/CWP-07.csv",
+        "degraded_sensor": null,
+        "rows": 1080
+      },
+      "delay_minutes_30d": 5
+    },
+    {
+      "asset_id": "CWP-08",
+      "type": "Cooling Water Pump",
+      "area": "Utilities",
+      "criticality": "Medium",
+      "install_year": 2009,
+      "manufacturer": "ABB",
+      "sensor": {
+        "path": "data/sensors/CWP-08.csv",
+        "degraded_sensor": "vibration",
+        "rows": 1080
+      },
+      "delay_minutes_30d": 410
+    }
+  ],
+  "counts": {
+    "assets": 37,
+    "manuals": 37,
+    "sops": 148,
+    "failure_reports": 132,
+    "maintenance_logs": 182,
+    "delay_logs": 37,
+    "delay_events": 107,
+    "spare_parts": 32,
+    "sensor_files": 37,
+    "total_documents": 536
+  }
+}

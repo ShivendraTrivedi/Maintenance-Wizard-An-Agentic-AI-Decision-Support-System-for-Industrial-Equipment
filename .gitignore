@@ -1,0 +1,24 @@
+# Secrets — never commit
+.env
+*.key
+.streamlit/secrets.toml
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Local tooling
+.claude/
+
+# Generated artifacts
+chroma/
+*.sqlite3
+
+# OS
+.DS_Store
+
+# NOTE: data/vectorstore/ IS committed on purpose so the deployed app ships with
+# the prebuilt RAG index and works immediately — no rebuild step at startup.
